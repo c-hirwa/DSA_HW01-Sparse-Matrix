@@ -16,17 +16,12 @@ Put matrix files in sample_inputs/
 Run:
 
 bash
-Copy
-Edit
 python sparse_matrix.py
 Follow the prompts
 
 Results saved in results/
 
 # Format
-makefile
-Copy
-Edit
 rows=#
 cols=#
 (row, col, value)
