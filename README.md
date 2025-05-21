@@ -15,16 +15,17 @@ Put matrix files in sample_inputs/
 
 Run:
 
-bash
 python sparse_matrix.py
 Follow the prompts
 
 Results saved in results/
 
 # Format
+`
 rows=#
 cols=#
 (row, col, value)
+`
 # Notes
 Written for a DSA course
 
