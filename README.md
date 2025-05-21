@@ -23,14 +23,14 @@ Follow the prompts
 
 Results saved in results/
 
-Format
+# Format
 makefile
 Copy
 Edit
 rows=#
 cols=#
 (row, col, value)
-Notes
+# Notes
 Written for a DSA course
 
 Uses only Python standard libraries
