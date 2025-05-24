@@ -29,7 +29,8 @@ cols=3
 
 ## Operations
 
-- **Addition/Subtraction**: Requires same dimensions, O(m + n) complexity
-- **Multiplication**: Standard matrix rules apply, optimized for sparse data
+- Addition
+- Subtraction
+- Multiplication
 
 Pure Python implementation using only standard libraries.
