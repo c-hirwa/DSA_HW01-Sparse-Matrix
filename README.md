@@ -1,32 +1,35 @@
 # Sparse Matrix Operations
-A Python program for doing addition, subtraction, and multiplication on sparse matrices (matrices with lots of zeros). It only stores non-zero values to save space.
 
-# Features
-Fast and memory-efficient
+Python program for arithmetic operations on sparse matrices. Stores only non-zero values for memory efficiency.
 
-Reads/writes from .txt files
+## Features
 
-Simple command-line interface
+- Addition, subtraction, and multiplication of sparse matrices
+- Memory-efficient storage (coordinate format)
+- File I/O with text files
+- Interactive command-line interface
+- Input validation and error handling
 
-Error checks for file format and dimensions
+## Usage
 
-# Usage
-Put matrix files in sample_inputs/
+1. Place matrix files in `sample_inputs/`
+2. Run: `python sparse_matrix.py`
+3. Follow prompts to select operation
+4. Results saved in `results/`
 
-Run:
+## File Format
 
-python sparse_matrix.py
-Follow the prompts
+```
+rows=3
+cols=3
+(0, 0, 5.0)
+(1, 2, 3.0)
+(2, 1, -2.0)
+```
 
-Results saved in results/
+## Operations
 
-# Format
-`
-rows=#
-cols=#
-(row, col, value)
-`
-# Notes
-Written for a DSA course
+- **Addition/Subtraction**: Requires same dimensions, O(m + n) complexity
+- **Multiplication**: Standard matrix rules apply, optimized for sparse data
 
-Uses only Python standard libraries
+Pure Python implementation using only standard libraries.
